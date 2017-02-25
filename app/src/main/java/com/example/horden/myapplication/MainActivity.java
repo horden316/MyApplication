@@ -26,6 +26,9 @@ public class MainActivity extends AppCompatActivity {
         intent.setClass(MainActivity.this , p2.class);
         startActivity(intent);
 
-        
+        Context context = getApplication();
+        CharSequence text = "Toast test~";
+        int duration = Toast.LENGTH_SHORT;
+        Toast.makeText(context, text, duration).show();
     }
 }

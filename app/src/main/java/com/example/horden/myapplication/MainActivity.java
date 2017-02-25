@@ -6,6 +6,10 @@ import android.os.Bundle;
 import android.support.v7.view.ViewPropertyAnimatorCompatSet;
 import android.widget.Toast;
 import android.view.View;
+import android.app.Activity;
+import android.content.Context;
+import android.view.Gravity;
+
 
 import static com.example.horden.myapplication.R.styleable.View;
 
@@ -21,5 +25,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent();
         intent.setClass(MainActivity.this , p2.class);
         startActivity(intent);
+
+        
     }
 }

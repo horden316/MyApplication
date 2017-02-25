@@ -13,8 +13,7 @@ public class p2 extends AppCompatActivity {
         setContentView(R.layout.activity_p2);
     }
     void click2(View view){
-        Intent intent = new Intent();
-        intent.setClass(p2.this , MainActivity.class);
-        startActivity(intent);
+        this.finish();
+
     }
 }
